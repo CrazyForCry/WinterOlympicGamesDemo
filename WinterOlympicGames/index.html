@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="./Swiper-3.4.2/dist/css/swiper.min.css"/>
+		<title>冬奥会</title>
+		
+	</head>
+	<body>
+		<div id="header">
+			<ul class="logolist">
+				<li>
+					<img src="img/149865458.png" />
+				</li>
+				<li>
+					<img src="img/banner.jpg" />
+				</li>
+				<li>
+					<img src="img/149865458.png" />
+				</li>
+			</ul>
+			<ul class="navlist">
+				<li>
+					<a href="index.html"  class="current">
+						首页
+					</a>
+				</li>
+				<li>
+					<a href="news.html">
+						新闻中心
+					</a>
+				</li>
+				<li>
+					<a href="culture.html">
+						赛区&文化
+					</a>
+				</li>
+				<li>
+					<a href="encyclopedia.html">
+						冬奥百科
+					</a>
+				</li>
+				<li>
+					<a href="WinterParalympicGames.html">
+						冬残奥会
+					</a>
+				</li>
+				<li>
+					<a href="about.html">
+						关于我们
+					</a>
+				</li>
+			</ul>
+			
+			<!-- Swiper -->
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><img src="img/149847863.jpg" ></div>
+			        <div class="swiper-slide"><img src="img/151236131.jpg" ></div>
+			        <div class="swiper-slide"><img src="img/151238900.jpg" ></div>
+			    </div>
+			    <!-- Add Pagination -->
+			    <div class="swiper-pagination"></div>
+			    <!-- Add Arrows -->
+			    <div class="swiper-button-next"></div>
+			    <div class="swiper-button-prev"></div>
+			</div>
+			
+			<!-- Swiper JS -->
+			<script src="Swiper-3.4.2/dist/js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+			
+			<!-- Initialize Swiper -->
+			<script>
+			var swiper = new Swiper('.swiper-container', {
+			    pagination: '.swiper-pagination',
+			    nextButton: '.swiper-button-next',
+			    prevButton: '.swiper-button-prev',
+			    slidesPerView: 1,
+				autoplay:2000,
+			    paginationClickable: true,
+			    spaceBetween: 30,
+			    loop: true
+			});
+			</script>
+			
+		</div>
+		
+		<div id="container">
+			<div class="container-top">
+				<div class="container-top-left">
+					<h1>焦点新闻</h1>
+					<ul>
+						<li>
+							<h3 id="details-one">习近平考察北京冬奥会和冬残奥会筹办工作</h3>
+						</li>
+						<li>
+							<p>习近平：京张高铁建成投运意义重大 冬奥会筹办工作都要高标准高质量推进</p>
+						</li>
+						<li>
+							<p>韩正：高标准高质量推进今年北京冬奥会筹办工作</p>
+						</li>
+						<li>
+							<p>北京冬奥组委召开主席办公会 研究部署冬奥筹办重点工作 蔡奇主持会议</p>
+						</li>
+						<li>
+							<p>河北省召开第24届冬奥会工作领导小组办公会议</p>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<h3 id="details-two">嫦娥五号搭载北京冬奥会展示品交接仪式举行</h3>
+						</li>
+						<li>
+							<p>北京2022年冬奥会和冬残奥会兴奋剂检查官招募培训班举行</p>
+						</li>
+						<li>
+							<p>北京冬奥组委运动员委员会召开2020年度工作会议</p>
+						</li>
+						<li>
+							<p>首都体育馆改扩建工程等4个冬奥项目完工</p>
+						</li>
+						<li>
+							<p>北京冬奥筹办走过极不平凡的一年</p>
+						</li>
+					</ul>
+				</div>
+				<div class="container-top-right">
+					<h1>冬奥首发</h1>
+					<div class="container-top-right-top">
+						<img src="img/151202340.jpg" />
+					</div>
+				
+					<ul class="container-top-right-bottom">
+						<li>
+							<img src="img/151202342.jpg" >
+						</li>
+						<li>
+							<img src="img/151232557.jpg" >
+						</li>
+					</ul>
+				
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<p>Created by XXXX</p>
+		</div>
+	</body>
+	<script src="js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$("#details-one").click(function(){
+			window.location.href = "details-one.html";
+		})
+		$("#details-two").click(function(){
+			window.location.href = "details-two.html";
+		})
+	</script>
+</html>

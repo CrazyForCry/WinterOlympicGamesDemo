@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/encyclopedia.css"/>
+		<link rel="stylesheet" type="text/css" href="Swiper-3.4.2/dist/css/swiper.min.css"/>
+		<title>冬奥会</title>
+	</head>
+	<body>
+		<div id="header">
+			<ul class="logolist">
+				<li>
+					<img src="img/149865458.png" />
+				</li>
+				<li>
+					<img src="img/banner.jpg" />
+				</li>
+				<li>
+					<img src="img/149865458.png" />
+				</li>
+			</ul>
+			<ul class="navlist">
+				<li>
+					<a href="index.html">
+						首页
+					</a>
+				</li>
+				<li>
+					<a href="news.html">
+						新闻中心
+					</a>
+				</li>
+				<li>
+					<a href="culture.html">
+						赛区&文化
+					</a>
+				</li>
+				<li>
+					<a href="encyclopedia.html"  class="current">
+						冬奥百科
+					</a>
+				</li>
+				<li>
+					<a href="WinterParalympicGames.html">
+						冬残奥会
+					</a>
+				</li>
+				<li>
+					<a href="about.html">
+						关于我们
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div id="container">
+			<h1>冬奥明星</h1>
+			<div class="container-middle">
+				<div class="container-middle-left">
+					<img src="img/yangyang600.jpg" >
+				</div>
+				<div class="container-middle-right">
+					<h1>杨扬</h1>
+					<p>杨扬在2002年盐湖城冬奥会上，为中国获得了第一枚冬奥会金牌。2006年都灵冬奥会结束后，杨扬宣布退出国家队。2010年2月，她以退役运动员身份当选国际奥委会委员。</p>
+				</div>
+			</div>
+			<!-- Swiper -->
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide" style="background-image:url(img/yangyang600.jpg)"></div>
+			        <div class="swiper-slide" style="background-image:url(img/zhanghong600.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(img/anxianzhu_small.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(img/biyuedalun_small.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(img/hanxiaopeng190.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(img/huaite_small.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(img/jinyaner_small.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(img/lijianrou190.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(img/peixishitaiyin_small.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(img/qiantianzhenyang_small.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(img/shenxuezhaohongbo190.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(img/wangmeng190.jpg)"></div>
+			    </div>
+			    <!-- Add Pagination -->
+			    <div class="swiper-pagination"></div>
+			</div>
+			
+			<!-- Swiper JS -->
+			<script src="Swiper-3.4.2/dist/js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+			
+			<!-- Initialize Swiper -->
+			<script>
+			var swiper = new Swiper('.swiper-container', {
+			    pagination: '.swiper-pagination',
+			    effect: 'coverflow',
+			    grabCursor: true,
+			    centeredSlides: true,
+			    slidesPerView: 'auto',
+				autoplay:1000,
+			    coverflow: {
+			        rotate: 50,
+			        stretch: 0,
+			        depth: 100,
+			        modifier: 1,
+			        slideShadows : true
+			    }
+			});
+			</script>
+		</div>
+		<div id="footer">
+			<p>Created by XXXX</p>
+		</div>
+	</body>
+</html>

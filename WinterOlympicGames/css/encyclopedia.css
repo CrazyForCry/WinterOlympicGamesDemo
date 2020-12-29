@@ -1,0 +1,131 @@
+#header {
+	width: 100%;
+	height: 235px;
+	overflow: hidden;
+
+}
+
+#header .logolist {
+	width: 1200px;
+	margin: 0 auto;
+	height: 180px;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	/* border: 1px solid; */
+}
+
+#header .logolist li {
+	height: 180px;
+	/* border: 1px solid; */
+}
+
+#header .logolist li:nth-of-type(1) {
+	position: absolute;
+	left: 0;
+}
+
+#header .logolist li:nth-of-type(3) {
+	position: absolute;
+	right: 0;
+}
+
+#header .navlist {
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	border-top: 1px solid #05568b;
+	border-bottom: 1px solid #05568b;
+}
+
+#header .navlist li {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+#header .navlist li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #05568b;
+	text-align: center;
+	font-size: 18px;
+}
+
+#header .navlist li a:hover {
+	background-color: #b52d2f;
+	color: white;
+}
+
+#header .navlist .current {
+	color: white;
+	background-color: #b52d2f;
+}
+
+#container {
+	width: 1200px;
+	height: 840px;
+	/* border: 1px solid; */
+	margin: 0 auto;
+	overflow: hidden;
+}
+#container h1{
+				width: 100%;
+				height: 40px;
+				line-height: 40px;
+				font-size: 24px;
+				color: #249DDD;
+				background-image: url(../img/footer.jpg);
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				padding: 10px;
+			}
+			#container .container-middle{
+				width: 100%;
+				height: 430px;
+				clear: both;
+					/* border: 1px solid; */
+				margin-top: 20px;
+				overflow: hidden;
+			}
+			#container .container-middle .container-middle-left{
+				width: 630px;
+				height: 430px;
+				float: left;
+				text-align: center;
+			}
+			#container .container-middle .container-middle-left img{
+				 vertical-align: middle;
+			}
+			#container .container-middle .container-middle-right{
+				width: 360px;
+				height: 430px;
+				float: right;
+				margin-right: 20px;
+			}
+			#container .container-middle .container-middle-right h1{
+				text-align: center;
+			}
+			#container .container-middle .container-middle-right p{
+				width: 100%;
+				margin-top: 30px;
+				line-height: 30px;
+				font-size: 14px;
+				color: gray;
+			}
+			#container .swiper-container {
+			    width: 100%;
+			    padding-top: 50px;
+			    padding-bottom: 50px;
+			}
+			#container .swiper-slide {
+			    background-position: center;
+			    background-size: cover;
+			    width: 200px;
+			    height: 200px;
+			
+			}
